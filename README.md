@@ -5,6 +5,12 @@
 
 ## Como correr
 
+### Puedes correrlo en replit.com
+
+este es el link
+https://replit.com/join/cuhmjhtaqr-soru13
+[replit](https://replit.com/join/cuhmjhtaqr-soru13)
+
 Para el entorno de desarrollo solo instala docker y a continuación ejecuta:
 
 Para simplemente correrlo
