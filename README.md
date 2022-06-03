@@ -13,8 +13,9 @@ https://replit.com/join/cuhmjhtaqr-soru13
 
 ### Puedes correrlo simplemente ejecutanto el archivo
 
-```bash
 plain_data.py
+
+```bash
 python plain_data.py
 pytest plain_data.py
 ```
