@@ -5,6 +5,7 @@
     en un array nuevo para despues mostrarlos o ordenarlos si se desea.
 """
 #para limpiar el arreglo y empezar con otra prueba o arreglo numerico
+import string
 from turtle import clear
 #lista donde se van almacenando los valores a motrar como resultado
 arreglo_plano_de_enteros = []
@@ -17,7 +18,11 @@ def plain_data(arreglo_de_numeros):
         if isinstance(valor,list):
             plain_data(valor)
         else:
-            arreglo_plano_de_enteros.append(valor)
+            if isinstance(valor,int):
+                arreglo_plano_de_enteros.append(valor)
+            else:
+                print("solo numeros")
+                break
 
 #envolvemos la función recursiva para retornar el valor
 def run(arreglo_de_numeros):
@@ -44,7 +49,7 @@ def test_casos(a,exp):
 # main.py
 if __name__ == '__main__':
     #puedes poner el arreglo que gustes
-    test = [1,2,3, [45,20],4,5, [2, [3, [4, 5,5]]]]
+    test = ['r',2,'t',{}, [45,20],4,5, [2, [3, [4, 5,5]]]]
     test1 = [1, [2, [3, [4, 5]]]]
     test2 = [6, [1, [2, 3], 4], 5]
     test3 = [[[1, 2,], 3], 4, 5]
