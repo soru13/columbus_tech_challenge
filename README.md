@@ -11,6 +11,14 @@ este es el link
 https://replit.com/join/cuhmjhtaqr-soru13
 [replit](https://replit.com/join/cuhmjhtaqr-soru13)
 
+Puedes dar _run_
+o puedes usar shell y hay dos formas la normal y la de pruebas:
+
+```bash
+python main.py
+pytest main.py
+```
+
 ### Puedes correrlo simplemente ejecutanto el archivo
 
 plain_data.py
