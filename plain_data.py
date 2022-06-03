@@ -4,23 +4,24 @@
     sea un array, mientras sea un array continuara en el ciclo mientras los valores se van guardando
     en un array nuevo para despues mostrarlos o ordenarlos si se desea.
 """
-#lista donde se van almacenando los valores a motrar como resultado
+#para limpiar el arreglo y empezar con otra prueba o arreglo numerico
 from turtle import clear
-
-
+#lista donde se van almacenando los valores a motrar como resultado
 arreglo_plano_de_enteros = []
 
 
+#Se resolvio por recursividad hasta terminar
 def plain_data(arreglo_de_numeros):
-    
+
     for valor in arreglo_de_numeros:
         if isinstance(valor,list):
             plain_data(valor)
         else:
             arreglo_plano_de_enteros.append(valor)
 
+#envolvemos la función recursiva para retornar el valor
 def run(arreglo_de_numeros):
-    #inicializamos 
+    #inicializamos
     arreglo_plano_de_enteros.clear()
     plain_data(arreglo_de_numeros)
     print(arreglo_plano_de_enteros)
@@ -29,6 +30,7 @@ def run(arreglo_de_numeros):
 #Pruebas para validar el resultado
 #en lugar de hacer tres funciones identicas para cada caso mejor una sola y mandamos por parametros
 import pytest
+#decorador según la documentación para pasar los casos como parametros y lo que esperamos
 @pytest.mark.parametrize('a, exp',
 [
     ([1, [2, [3, [4, 5]]]],[1, 2, 3, 4, 5]),
