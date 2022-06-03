@@ -1,7 +1,7 @@
 # PRUEBA TÉCNICA COLUMBUS
 
-*Tech Challenge.
-*Escribe un programa en Python o Javascript que aplane un arreglo de enteros o arreglos de enteros (el cual puede estar anidado arbitrariamente) a un arreglo plano de enteros..
+**Tech Challenge**.
+**Escribe un programa en Python o Javascript que aplane un arreglo de enteros o arreglos de enteros (el cual puede estar anidado arbitrariamente) a un arreglo plano de enteros.**
 
 ## Como correr
 
@@ -13,6 +13,11 @@ https://replit.com/join/cuhmjhtaqr-soru13
 
 Puedes dar _run_
 o puedes usar shell y hay dos formas la normal y la de pruebas:
+Si es en local puede necesites instalar **pytest** en sistemas basados en unix/linux
+
+```bash
+pip install pytest
+```
 
 ```bash
 python main.py
