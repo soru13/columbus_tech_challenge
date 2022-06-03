@@ -2,7 +2,7 @@
 """
     Dado el array de enteros que se pase ocmo parametro, simplemente cae en un ciclo donde se válida que
     sea un array, mientras sea un array continuara en el ciclo mientras los valores se van guardando
-    en un array nuevo para despues mostrarlos o ordenarlos si se desea.
+    en un array nuevo para despues mostrarlos.
 """
 #para limpiar el arreglo y empezar con otra prueba o arreglo numerico
 import string
@@ -49,7 +49,7 @@ def test_casos(a,exp):
 # main.py
 if __name__ == '__main__':
     #puedes poner el arreglo que gustes
-    test = ['r',2,'t',{}, [45,20],4,5, [2, [3, [4, 5,5]]]]
+    test = [1,2, [45,20],4,5, [2, [3, [4, 5,5]]]]
     test1 = [1, [2, [3, [4, 5]]]]
     test2 = [6, [1, [2, 3], 4], 5]
     test3 = [[[1, 2,], 3], 4, 5]
