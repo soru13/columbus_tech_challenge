@@ -11,6 +11,16 @@ este es el link
 https://replit.com/join/cuhmjhtaqr-soru13
 [replit](https://replit.com/join/cuhmjhtaqr-soru13)
 
+### Puedes correrlo simplemente ejecutanto el archivo
+
+```bash
+plain_data.py
+python plain_data.py
+pytest plain_data.py
+```
+
+### Si usas Docker:
+
 Para el entorno de desarrollo solo instala docker y a continuación ejecuta:
 
 Para simplemente correrlo
