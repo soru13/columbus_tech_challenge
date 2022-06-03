@@ -10,6 +10,12 @@ Para el entorno de desarrollo solo instala docker y a continuación ejecuta:
 Para simplemente correrlo
 
 ```bash
+docker-compose up
+```
+
+Despiues de tener el contenedor pues ejecutarlo las veces que quieras con la siguiente línea de código
+
+```bash
 docker-compose run --rm prueba
 ```
 
